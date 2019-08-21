@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+
+    <EditText android:id="@+id/alt_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Altura"
+        android:layout_marginTop="100dp"
+        android:textSize="30dp"
+        android:inputType="numberDecimal"/>
+
+    <EditText android:id="@+id/pes_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="peso"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/botao_calc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:textSize="35dp"
+        android:layout_marginTop="25dp"
+      />
+
+    <TextView android:id="@+id/text_mostrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text=""
+        android:layout_marginTop="20dp"/>
+
+
+    <Button android:id="@+id/botao_creditos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Creditos"
+        android:textSize="30dp"
+        android:layout_marginTop="180dp"
+        />
+
+
+</LinearLayout>
+
+</ScrollView>
